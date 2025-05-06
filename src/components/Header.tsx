@@ -25,7 +25,7 @@ const Header = () => {
     >
       <div className="container flex justify-between items-center">
         <a href="#" className="text-xl font-bold text-portfolio-darkblue">
-          Shafayet
+          Sayeed
         </a>
 
         {/* Desktop Navigation */}
