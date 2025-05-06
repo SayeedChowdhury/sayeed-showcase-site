@@ -4,25 +4,21 @@ import { Badge } from "@/components/ui/badge";
 
 const skillCategories = [
   {
-    name: "Programming Languages",
-    skills: ["Python", "SQL", "JavaScript", "TypeScript", "Java", "C++", "R"]
+    name: "Machine Learning & AI",
+    skills: ["PyTorch", "TensorFlow", "Keras", "LLMs", "LoRA", "PEFT", "GenerativeAI", "Diffusion Models"]
   },
   {
-    name: "Data Engineering",
-    skills: ["Apache Spark", "Airflow", "Kafka", "Hadoop", "ETL", "Data Pipelines", "Data Modeling"]
+    name: "Languages & Frameworks",
+    skills: ["Python", "SQL", "Deep Learning", "Computer Vision", "NLP", "Spiking Neural Networks"]
   },
   {
-    name: "Databases",
-    skills: ["PostgreSQL", "MongoDB", "MySQL", "Redshift", "Snowflake", "DynamoDB", "Cassandra"]
+    name: "Cloud & Tools",
+    skills: ["AWS", "Azure", "GCP", "Tableau", "Data Analysis", "Research"]
   },
   {
-    name: "Cloud & DevOps",
-    skills: ["AWS", "Azure", "Docker", "Kubernetes", "CI/CD", "Terraform", "Git"]
-  },
-  {
-    name: "Tools & Frameworks",
-    skills: ["React", "Node.js", "Django", "Flask", "Pandas", "NumPy", "Scikit-Learn"]
-  },
+    name: "Research Areas",
+    skills: ["Computer Vision", "Efficient ML", "Transformers", "Generative Models", "Signal Processing", "Biomedical AI"]
+  }
 ];
 
 const Skills = () => {

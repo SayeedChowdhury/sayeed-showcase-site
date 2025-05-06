@@ -14,16 +14,20 @@ const Hero = () => {
             Sayeed Shafayet
           </h1>
           <p className="text-2xl md:text-3xl text-portfolio-gray font-light mb-6">
-            Software Developer & Data Engineering Specialist
+            Research Scientist & ML Engineer
+          </p>
+          <p className="text-lg text-portfolio-gray mb-2">
+            West Lafayette, IN | turjo11@gmail.com
           </p>
           <p className="text-lg text-portfolio-gray mb-8 max-w-2xl">
-            I build innovative solutions and help organizations leverage data-driven insights
-            to solve complex business problems.
+            I develop innovative machine learning solutions with expertise in computer vision, 
+            natural language processing, and efficient neural network design.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button
               size="lg"
               className="bg-portfolio-blue hover:bg-portfolio-darkblue"
+              onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View My Work
             </Button>
@@ -31,6 +35,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="border-portfolio-blue text-portfolio-blue hover:bg-portfolio-blue hover:text-white"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Contact Me
             </Button>

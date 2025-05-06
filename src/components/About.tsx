@@ -10,47 +10,57 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="col-span-2">
             <p className="text-lg text-portfolio-gray mb-6">
-              I am a dedicated Software Developer with a strong focus on Data Engineering. With several years of experience
-              in the tech industry, I've developed expertise in building robust data pipelines, creating efficient
-              ETL processes, and implementing machine learning solutions.
+              I am a Research Scientist at Meta with a Ph.D. in Electrical and Computer Engineering from Purdue University. 
+              My expertise lies in developing efficient machine learning algorithms, computer vision systems, and large 
+              language models.
             </p>
             
             <p className="text-lg text-portfolio-gray mb-6">
-              I earned my Master's degree in Computer Science and have applied my knowledge to solve complex
-              problems across various domains including healthcare, finance, and e-commerce.
+              Throughout my academic and professional journey, I've focused on pushing the boundaries of AI technologies,
+              specifically in areas such as scene understanding from videos, transformer-based architectures, 
+              spiking neural networks, and generative models.
             </p>
             
             <p className="text-lg text-portfolio-gray">
-              My passion lies in transforming raw data into actionable insights and building scalable systems that
-              make a real impact on business outcomes. I continuously strive to improve my technical skills and stay
-              updated with the latest industry trends and technologies.
+              My research has led to significant improvements in model efficiency, accuracy, and interpretability,
+              with applications in healthcare, signal processing, computer vision, and natural language processing.
+              I'm passionate about developing AI solutions that are both powerful and resource-efficient.
             </p>
           </div>
           
           <div className="bg-portfolio-lightgray rounded-lg p-6">
             <h3 className="font-heading font-bold text-xl mb-4 text-portfolio-darkblue">
-              Quick Facts
+              Education
+            </h3>
+            <div className="space-y-4 text-portfolio-gray">
+              <div>
+                <h4 className="font-bold">Purdue University</h4>
+                <p>Ph.D. in Electrical and Computer Engineering</p>
+                <p>2019 - 2024</p>
+                <p>CGPA: 4.00/4.00</p>
+                <p className="italic">Research: Efficient Machine Learning and Computer Vision</p>
+              </div>
+            </div>
+            
+            <h3 className="font-heading font-bold text-xl mt-6 mb-4 text-portfolio-darkblue">
+              Awards
             </h3>
             <ul className="space-y-3 text-portfolio-gray">
               <li className="flex items-start">
                 <span className="text-portfolio-blue mr-2">▹</span>
-                <span>Master's degree in Computer Science</span>
+                <span>TRACER Research Grant (2024)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-portfolio-blue mr-2">▹</span>
-                <span>Specialized in Data Engineering & Analytics</span>
+                <span>Travel Grant, META (2022)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-portfolio-blue mr-2">▹</span>
-                <span>Several years of industry experience</span>
+                <span>IEEE Signal Processing Cup 1st prize (2016)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-portfolio-blue mr-2">▹</span>
-                <span>Passionate about solving complex problems</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-portfolio-blue mr-2">▹</span>
-                <span>Committed to continuous learning</span>
+                <span>IEEE Signal Processing Cup 2nd prize (2015)</span>
               </li>
             </ul>
           </div>

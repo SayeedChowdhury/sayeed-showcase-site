@@ -4,42 +4,41 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const experiences = [
   {
-    id: "airgap",
-    company: "Airgap",
-    title: "Data Engineer",
-    period: "May 2023 - Present",
+    id: "meta",
+    company: "Meta",
+    title: "Research Scientist, Machine Learning",
+    period: "Sept 2024 - Apr 2025",
     responsibilities: [
-      "Develop and maintain ETL pipelines for various enterprise-level applications",
-      "Design and implement data warehouse solutions",
-      "Optimize database queries and data processing workflows",
-      "Work with cross-functional teams to identify and address data-related challenges",
-      "Create and maintain documentation for data processing workflows"
+      "Implemented novel foundation models to enhance the ranking performance of ads models by 0.4%",
+      "Improved the performance of line cook Ads models by scaling up to 5-10X, resulting in ~1% accuracy enhancement",
+      "Worked on large-scale machine learning systems for advertising optimization"
     ]
   },
   {
-    id: "ibm",
-    company: "IBM",
-    title: "Backend Data Developer",
-    period: "Feb 2021 - May 2023",
+    id: "purdue",
+    company: "Purdue University",
+    title: "Graduate Research Assistant",
+    period: "Aug 2019 - Sept 2024",
     responsibilities: [
-      "Built and maintained RESTful APIs for data access and manipulation",
-      "Implemented machine learning models for predictive analytics",
-      "Collaborated with data scientists to deploy models into production",
-      "Optimized backend systems for improved performance",
-      "Participated in code reviews and quality assurance processes"
+      "Proposed an optimal transport formulation for unsupervised learning from videos, resulting in 22% accuracy enhancement",
+      "Developed an algorithm for temporal localization of key steps in surgical videos, with 10% accuracy improvement",
+      "Designed a segmented T5 transformer-based LLM combining segmented attention with recurrent attention, achieving 22% higher ROUGE1 scores",
+      "Implemented a novel temporal pruning method for SNNs, achieving 5X lower latency and up to 100X higher energy-efficiency",
+      "Implemented LoRA-based finetuning for FLAN T5 LLM to reduce trainable parameters by 98% while maintaining performance",
+      "Finetuned FLAN T5 LLM using RLHF with PPO to increase reward model scores by 25%",
+      "Proposed novel algorithms for ECG classification and heart rate estimation from PPG with high accuracy",
+      "Studied visual syntax with Vision Transformers and Vision Language Models, proposing masked auto-encoder based training"
     ]
   },
   {
-    id: "lowercase",
-    company: "Lowercase",
-    title: "Software Developer",
-    period: "Jan 2020 - Jan 2021",
+    id: "adi",
+    company: "Analog Devices Inc.",
+    title: "Advanced ML Algorithm Intern, AI Solutions Team",
+    period: "Sept 2023 - Dec 2023",
     responsibilities: [
-      "Developed features for web applications using modern JavaScript frameworks",
-      "Implemented database schemas and query optimization",
-      "Collaborated with UX/UI designers to create intuitive user interfaces",
-      "Participated in agile development processes",
-      "Performed code reviews and maintained code quality standards"
+      "Developed a GAN-based generative AI algorithm for speech enhancement using bone conduction microphone data",
+      "Proposed a multimodal AI approach fusing air conduction and BCM signals, with 20 dB enhancement over state-of-the-art",
+      "Contributed to audio processing algorithms using deep learning techniques"
     ]
   }
 ];
@@ -50,7 +49,7 @@ const Experience = () => {
       <div className="container">
         <h2 className="section-heading">Work Experience</h2>
         
-        <Tabs defaultValue="airgap" className="w-full">
+        <Tabs defaultValue="meta" className="w-full">
           <TabsList className="flex flex-wrap mb-8 bg-transparent space-x-2">
             {experiences.map((exp) => (
               <TabsTrigger

@@ -10,12 +10,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="font-heading font-bold text-xl">Sayeed Shafayet</p>
-            <p className="text-sm text-gray-300">Software Developer & Data Engineering Specialist</p>
+            <p className="text-sm text-gray-300">Research Scientist & ML Engineer</p>
           </div>
           
           <div>
             <nav className="flex gap-6">
-              {["About", "Experience", "Skills", "Contact"].map((item) => (
+              {["About", "Experience", "Skills", "Publications", "Contact"].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
