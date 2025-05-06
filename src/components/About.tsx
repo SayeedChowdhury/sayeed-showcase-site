@@ -10,7 +10,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="col-span-2">
             <p className="text-lg text-portfolio-gray mb-6">
-              I am a Research Scientist at Meta with a Ph.D. in Electrical and Computer Engineering from Purdue University. 
+              I am a Research Associate at Purdue University. Previously, I worked as a Machine Learning Research Scientist at Meta with a Ph.D. in Electrical and Computer Engineering from Purdue University. 
               My expertise lies in developing efficient machine learning algorithms, computer vision systems, and large 
               language models.
             </p>
